@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@android:color/holo_blue_bright"
+android:gravity="center"
+android:orientation="vertical"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:textAlignment="center"
+tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:gravity="center"
+    android:text="quiz topics"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/holo_purple"
+    android:textStyle="italic" />
+
+<Button
+    android:id="@+id/internet_button"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:onClick="Net"
+    android:padding="20dp"
+    android:text="Internet" />
+
+<Button
+    android:id="@+id/sport_button"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:onClick="team"
+    android:padding="20dp"
+    android:text="sport" />
+
+<Button
+    android:id="@+id/android_button"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:onClick="apk"
+    android:padding="20dp"
+    android:text="android" />
+
+</LinearLayout>
